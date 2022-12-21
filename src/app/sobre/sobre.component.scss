@@ -1,0 +1,43 @@
+
+
+.wrap_history{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.history_box{
+    width: 600px;
+    margin-top:50px;
+
+    border-radius: 5px;
+
+    background-color: rgb(146, 227, 146);
+    color: #076a07;
+
+    padding: 1rem;
+
+
+
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing:0.05em;
+    line-height: 1.4em;
+}
+
+.box_right{
+ align-self: flex-end;
+ text-align: right;
+}
+
+.pic_small{
+    max-width: 350px;
+
+
+
+}

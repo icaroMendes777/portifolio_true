@@ -1,0 +1,42 @@
+$very_dark_green:rgb(6, 77, 6);
+$medium_dark_green: #338000FF;  
+$very_soft_green: #d5ffe6ff;
+
+/*for text*/
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;900&display=swap');
+
+
+body{
+    margin: 0px;
+    background: $very_soft_green;
+    //font-family: sans-serif;
+    color: $very_dark_green;
+    //font-family: 'Source Code Pro', monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+@media only screen and (min-width:600px){
+
+    .main{
+        width:100vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .content_wrap{
+        max-width: 800px;
+        flex:1;
+    }
+   
+}
