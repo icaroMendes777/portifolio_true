@@ -42,7 +42,7 @@ nav{
 @media only screen and (min-width:600px){
     .nav_container{
         height: 7rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
         display: flex;
         justify-content: center;
     }
@@ -54,6 +54,9 @@ nav{
         justify-content: flex-end;
         align-items: flex-end;
         
+    }
+    .nav_item{
+        padding:0 0.5rem;
     }
     nav{
         margin-right: 1rem;
