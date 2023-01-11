@@ -4,6 +4,7 @@ h3{
 }
 
 
+
 .wrap_history{
     display: flex;
     flex-direction: column;
@@ -16,10 +17,10 @@ h3{
 
     border-radius: 5px;
 
-    background-color: rgb(146, 227, 146);
+    background-color: rgb(132, 223, 132);
     color: #076a07;
 
-    padding: 1rem;
+    padding: 1.5rem;
 
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
@@ -30,6 +31,37 @@ h3{
     font-weight: 600;
     letter-spacing:0.05em;
     line-height: 1.4em;
+
+
+    transition: 0.3s;
+
+    h3{
+        color: #035003;
+    }
+   
+    &:hover{    
+        -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+
+
+        background-color: rgb(125, 233, 125);
+        color: #044e04;
+        
+    }
+
+    
+}
+
+
+.wrao_bio{
+    display: flex;
+}
+.text_bio{
+    &::selection {
+        color: rgb(35, 94, 8);
+        background: rgb(251, 253, 230)   ;
+      }
 }
 
 .box_right{
@@ -57,7 +89,66 @@ h3{
     width: 350px;
 }
 
+
+
 .side_side{
     display:grid;
     grid-template-columns: auto auto;
+}
+
+.increase_185{
+    transition: width 0.5s;
+    &:hover{
+        width:185px;
+       
+    }
+}
+
+.inc_left{
+    transition: transform 0.5s;
+    &:hover{
+        transform: rotate(-4deg);
+    }
+}
+
+.inc_right{
+    transition: transform 0.5s;
+    &:hover{
+        transform: rotate(4deg);
+    }
+}
+
+
+.grid_center{
+    display: grid;
+    justify-items: center;
+}
+
+.dissappear{
+    transition: opacity 0.4s;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+.vert_680{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media only screen and (max-width:680px){
+    .history_box{
+        width: 80vw;
+    }
+
+    .vert_680{
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .pic_small_2{
+        width: 280px;
+    }
 }

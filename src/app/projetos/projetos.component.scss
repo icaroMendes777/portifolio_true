@@ -41,6 +41,7 @@
     display: grid;
     justify-items: center;
   
+    transition: 0.05s;
 
     hr{
         width: 100px;
@@ -62,6 +63,8 @@
         -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
         box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
 
+
+        background-color: rgb(125, 233, 125);
         color: #044e04;
         cursor:pointer;
        
@@ -94,8 +97,14 @@
     margin-top: 1rem;
 }
 
-@media only screen and (max-width:773px){
+@media only screen and (max-width:850px){
     .wrap_projects_card{
         width: 33rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .wrap_projects_card{
+        width: 16rem;
     }
 }

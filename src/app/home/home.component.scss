@@ -17,6 +17,8 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    transition: transform 0.5s;
     &:hover{
         transform: rotate(9deg);
         opacity: 0.5;

@@ -1,0 +1,62 @@
+
+
+
+.comment_box{
+    padding:1rem;
+}
+
+.comment_wrap{
+    padding:1rem;
+
+    display: grid;
+    grid-template-areas: 'name date'
+                         'text text' ;
+    div{
+        padding:0.5rem;
+    }
+
+    .author_name{
+        grid-area: name;
+    }
+
+    .date{
+        grid-area: date;
+        justify-self: end;
+    }
+
+    .comment_text{
+        grid-area: text;
+    }
+}
+
+.wrap_editor{
+    margin: 3rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem ;
+
+    .deixe_comentario{
+       grid-column: 2;
+    }
+
+    editor{
+        
+        margin-left: 2rem;
+    }
+}
+
+
+.branch_image{
+    width: 135px;
+}
+
+.social{
+    img{
+        width:50px; 
+    }
+}
+
+.comment_frame{
+    width: 100%;
+    height: 600px;
+}
