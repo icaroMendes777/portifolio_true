@@ -19,13 +19,13 @@ export class ContatoComponent {
   constructor(private http: HttpClient) {
    // this.data = this.getData();
   }
-
+/*
   hello(){
     return 'teste';
   }
 
   ngOnInit(): void {
-    this.getData();
+    //this.getData();
     
   }
 
@@ -39,7 +39,7 @@ export class ContatoComponent {
      return res;
       
     })
-
+*/
 
     /*
     this.http.get('http://localhost:3000/users').subscribe(res => {
@@ -53,6 +53,4 @@ export class ContatoComponent {
       console.log(this.data)
       return this.data;
     })*/
-  }
-
 }

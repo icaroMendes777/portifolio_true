@@ -1,10 +1,21 @@
+/**
+ * nesse projeto o uso de variáveis em css não teve tanto sucesso
+ * não havia um design inicial e o esquema de coras mudou frequentemente
+ * elas são pouco usadas pelos arquivos
+ */
+
+
 $very_dark_green:rgb(6, 77, 6);
 $medium_dark_green: #338000FF;  
 $very_soft_green: #d5ffe6ff;
 
+
+
 /*for text*/
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;900&display=swap');
 
@@ -12,13 +23,14 @@ $very_soft_green: #d5ffe6ff;
 body{
     margin: 0px;
     background: $very_soft_green;
-    //font-family: sans-serif;
     color: $very_dark_green;
-    //font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap');
+h2{
+    font-size: 1.8rem;
+}
 
 body{
     font-family: 'Roboto Mono', monospace;
@@ -39,4 +51,9 @@ body{
         flex:1;
     }
    
+}
+
+
+.fl_start{
+    justify-content: flex-start!important;
 }

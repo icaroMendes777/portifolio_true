@@ -1,4 +1,10 @@
 
+
+main{
+    display:grid;
+    grid-template-columns: auto auto
+}
+
 .blue{
     color:blue;
 }
@@ -29,10 +35,7 @@
     }
 }
 
-main{
-    display:grid;
-    grid-template-columns: auto auto
-}
+
 
 .loren_quote{
     padding: 70px;
@@ -40,7 +43,9 @@ main{
     font-size: large;
     min-width:350px;
 }
-
+/**
+ * responsividade no tamanho da tela
+ */
 @media only screen and (max-width:800px) 
 {
     main{
@@ -58,6 +63,13 @@ main{
 
 @media only screen and (max-width:500px) 
 {
+
+    .loren_quote{
+        padding:0px;   
+        padding-top: 50px;
+        max-width: 300px;
+    }
+
     .home_me{
         width:200px;
         height:200px;

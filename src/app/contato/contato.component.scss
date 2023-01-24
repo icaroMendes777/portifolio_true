@@ -1,6 +1,4 @@
 
-
-
 .comment_box{
     padding:1rem;
 }
@@ -45,6 +43,9 @@
     }
 }
 
+.bold{
+    font-weight: 700;
+}
 
 .branch_image{
     width: 135px;
@@ -59,4 +60,12 @@
 .comment_frame{
     width: 100%;
     height: 600px;
+}
+
+
+.img_coffee{
+    max-width: 300px;
+
+    margin:30px;
+    margin-top: 130px;
 }
