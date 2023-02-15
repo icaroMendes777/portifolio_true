@@ -108,6 +108,7 @@ h3{
     grid-template-columns: auto auto;
     max-width: 600px;
     justify-items: center;
+    
 
     .pic_small{
         width: 275px;
@@ -115,7 +116,8 @@ h3{
 }
 
 .pic_small_1{
-    width: 150px;
+    max-width: 100px;
+    max-height: 60px;
     border-radius: 20px;
     margin: 1rem;
     background-color: white;
@@ -130,10 +132,10 @@ h3{
     grid-template-columns: auto auto;
 }
 
-.increase_185{
+.increase_135{
     transition: width 0.5s;
     &:hover{
-        width:185px;
+        //width:135px;
        
     }
 }
