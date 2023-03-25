@@ -47,7 +47,7 @@ h3{
 
     display: grid;
     justify-items: center;
-  
+
     transition: 0.05s;
 
     hr{
@@ -58,31 +58,34 @@ h3{
     h3{
         font-size: 1.5rem;
         text-align: center;
-        
+
     }
 
     img{
         opacity: 0.8;
     }
 
-    &:hover{    
+    &:hover{
         -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
         box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
 
+        margin-top: 10px;
+        margin-bottom: 20px;
 
         background-color: rgb(125, 233, 125);
         color: #044e04;
         cursor:pointer;
-       
+        transition:0.3s;
+
         img{
             opacity: 1;
             border: 5px solid rgb(205, 245, 205);
         }
 
-        
+
     }
-    
+
 }
 
 .tech_name{
