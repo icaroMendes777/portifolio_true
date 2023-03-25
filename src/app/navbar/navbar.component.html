@@ -2,22 +2,34 @@
     <div class="nav_wrap">
     <nav>
 
-        <div class="nav_item">
-            <a routerLink="/">Home</a>
-        </div>
 
         <div class="nav_item">
-            <a routerLink="sobre">Sobre</a>
+          <a (click)="goto('/')">Home</a>
         </div>
 
-        <div class="nav_item">
-            <a routerLink="projetos">Projetos</a>
-        </div>
 
         <div class="nav_item">
-            <a routerLink="contato">Contato</a>
+          <a (click)="goto('/sobre')">Sobre</a>
         </div>
+
+
+        <div class="nav_item">
+          <a (click)="goto('/projetos')">Projetos</a>
+        </div>
+
+
+        <div class="nav_item">
+          <a (click)="goto('/contato')">Contato</a>
+        </div>
+
+
 
     </nav>
     </div>
+</div>
+
+<div class="main transition_1" [ngClass]="visible ? 'active' : 'inactive'">
+  <div class="content_wrap">
+  <router-outlet></router-outlet>
+  </div>
 </div>

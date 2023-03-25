@@ -1,4 +1,16 @@
 
+.isFading{
+  background-color: black;
+}
+
+.success{
+  background-color: black;
+}
+
+.my_class{
+  transition: 1s;
+}
+
 
 main{
     display:grid;
@@ -23,7 +35,7 @@ main{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
+
     transition: transform 0.5s;
     &:hover{
         transform: rotate(9deg);
@@ -43,13 +55,19 @@ main{
     font-size: large;
     min-width:350px;
 }
+
+.mini_logo{
+  max-width: 50px;
+}
+
+
 /**
  * responsividade no tamanho da tela
  */
-@media only screen and (max-width:800px) 
+@media only screen and (max-width:800px)
 {
     main{
-        
+
         grid-template-columns:  auto;
         justify-items: center;
     }
@@ -61,11 +79,11 @@ main{
     }
 }
 
-@media only screen and (max-width:500px) 
+@media only screen and (max-width:500px)
 {
 
     .loren_quote{
-        padding:0px;   
+        padding:0px;
         padding-top: 50px;
         max-width: 300px;
     }
@@ -73,6 +91,6 @@ main{
     .home_me{
         width:200px;
         height:200px;
-        
+
     }
 }
