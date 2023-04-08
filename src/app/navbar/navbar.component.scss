@@ -4,23 +4,36 @@ $very_soft_green: #d5ffe6ff;
 $very_dark_green:rgb(6, 77, 6);
 $transparent: #00000000;
 
+
+$background_menu: #6e07f3;
+
 main{
   transition: 1s;
+}
+
+.pre_nav_container{
+  height:3.5rem;
+  background: #6e07f3;
+  width:100vw;
 }
 
 
 .nav_container{
 
-background: rgb(6,55,2);
-background: linear-gradient(90deg, rgba(6,55,2,1) 0%, rgba(5,120,41,1) 37%, rgba(0,196,67,1) 100%);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+background: $background_menu;
+//background: linear-gradient(90deg, rgba(6,55,2,1) 0%, rgba(5,120,41,1) 37%, rgba(0,196,67,1) 100%);
 width:100vw;
 
 display: flex;
 justify-content: center;
 
--webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+// -webkit-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.75);
+// -moz-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.75);
+// box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.75);
     a{
         color:white;
         text-decoration:solid;
@@ -34,6 +47,7 @@ nav{
     display:inline-flex;
 }
 
+
 .nav_item{
 
     border-bottom: 3px solid $transparent;
@@ -41,11 +55,11 @@ nav{
     transition: 0.2s;
     &:hover{
         cursor: pointer;
-        border-bottom: 3px solid $very_dark_green;
+        border-bottom: 3px solid #413731;
 
-        -webkit-box-shadow: 0px 3px 0px 0px $very_dark_green;
-        -moz-box-shadow: 0px 3px 0px 0px $very_dark_green;
-        box-shadow: 0px 3px 0px 0px $very_dark_green;
+        -webkit-box-shadow: 0px 3px 0px 0px #413731;
+        -moz-box-shadow: 0px 3px 0px 0px #413731;
+        box-shadow: 0px 3px 0px 0px #413731;
     }
 }
 
@@ -56,8 +70,8 @@ nav{
 
 @media only screen and (min-width:600px){
     .nav_container{
-        height: 7rem;
-        font-size: 1.7rem;
+        height: 3rem;
+        font-size: 1.6rem;
 
     }
     .nav_wrap{
@@ -80,6 +94,10 @@ nav{
 }
 
 @media only screen and (max-width:600px){
+    .pre_nav_container{
+      height:0rem;
+    }
+
     .nav_container{
         height: 4rem;
         font-size: 1.5rem;
@@ -127,4 +145,35 @@ nav{
         font-size: 1.1rem;
 
     }
+}
+
+
+footer{
+  background-color: $background_menu;
+  color:white;
+
+
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.footer_wrapp{
+  max-width: 800px;
+  padding: 3rem;
+  font-weight: 400;
+
+  .social_logo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    margin: 0.5rem;
+
+  }
 }

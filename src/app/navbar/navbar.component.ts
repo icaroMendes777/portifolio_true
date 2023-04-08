@@ -17,6 +17,11 @@ export class NavbarComponent {
   goto(route:string)
   {
     this.visible = false;
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
     setTimeout(()=>{
       this.router.navigate([route])
       setTimeout(()=>{

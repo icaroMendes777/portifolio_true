@@ -6,7 +6,7 @@
 
 
 $very_dark_green:rgb(6, 77, 6);
-$medium_dark_green: #338000FF;  
+$medium_dark_green: #338000FF;
 $very_soft_green: #d5ffe6ff;
 
 
@@ -22,8 +22,10 @@ $very_soft_green: #d5ffe6ff;
 
 body{
     margin: 0px;
-    background: $very_soft_green;
-    color: $very_dark_green;
+
+    //color: #0a2a59;
+
+    color:#413731;
     font-size: 1.1rem;
 }
 
@@ -50,7 +52,7 @@ body{
         max-width: 800px;
         flex:1;
     }
-   
+
 }
 
 

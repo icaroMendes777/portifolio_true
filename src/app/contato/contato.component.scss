@@ -1,46 +1,10 @@
-
-.comment_box{
-    padding:1rem;
+.contato_box{
+  border: 1px solid black;
+  padding: 3rem;
 }
 
-.comment_wrap{
-    padding:1rem;
-
-    display: grid;
-    grid-template-areas: 'name date'
-                         'text text' ;
-    div{
-        padding:0.5rem;
-    }
-
-    .author_name{
-        grid-area: name;
-    }
-
-    .date{
-        grid-area: date;
-        justify-self: end;
-    }
-
-    .comment_text{
-        grid-area: text;
-    }
-}
-
-.wrap_editor{
-    margin: 3rem 0 2rem 0;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1rem ;
-
-    .deixe_comentario{
-       grid-column: 2;
-    }
-
-    editor{
-        
-        margin-left: 2rem;
-    }
+.email_icon{
+  max-width: 100px;
 }
 
 .bold{
@@ -53,7 +17,7 @@
 
 .social{
     img{
-        width:50px; 
+        width:50px;
     }
 }
 
@@ -80,7 +44,7 @@
 
 
 @keyframes float {
-        0%   {margin-top: 110px;}
-        50% {margin-top: 125px;}
-        100%   {margin-top: 110px;}
+        0%   {margin-top: 110px;margin-bottom: 0px;}
+        50% {margin-top: 125px;margin-bottom: -15px;}
+        100%   {margin-top: 110px;margin-bottom: 0px;}
     }

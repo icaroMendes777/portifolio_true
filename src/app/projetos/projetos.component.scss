@@ -33,16 +33,16 @@ h3{
     margin: 1rem 0.5rem;
     padding: 0.5rem;
     font-size: 0.9rem;
-    border-radius: 5px;
+    //border-radius: 5px;
 
     text-decoration: none;
 
-    background-color: rgb(89, 212, 89);
-    color: #076a07;
+    //background-color: rgb(89, 212, 89);
+    color: #413731;
 
-    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.75);
 
 
     display: grid;
@@ -52,7 +52,7 @@ h3{
 
     hr{
         width: 100px;
-        color: green;
+        color: #413731;
     }
 
     h3{
@@ -66,21 +66,21 @@ h3{
     }
 
     &:hover{
-        -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
-        box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.75);
 
         margin-top: 10px;
         margin-bottom: 20px;
 
-        background-color: rgb(125, 233, 125);
-        color: #044e04;
+        background-color: #f2ea74;
+        color: #413731;
         cursor:pointer;
         transition:0.3s;
 
         img{
             opacity: 1;
-            border: 5px solid rgb(205, 245, 205);
+            //border: 5px solid rgb(205, 245, 205);
         }
 
 
@@ -101,7 +101,7 @@ h3{
 
 .thumb_project{
     max-width: 210px;
-    border: 5px solid rgb(195, 240, 195);
+    border: 2px solid #a6c3d6;
     border-radius: 3px;
 
     margin-top: 1rem;

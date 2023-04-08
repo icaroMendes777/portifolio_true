@@ -17,6 +17,26 @@ main{
     grid-template-columns: auto auto
 }
 
+.intro_box{
+  background-color: #f2ea74;
+padding: 1rem;
+-webkit-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+
+  &:hover{
+    -webkit-box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
+  }
+
+}
+
+
+.my_pic{
+  max-width: 300px;
+}
+
 .blue{
     color:blue;
 }
@@ -57,7 +77,7 @@ main{
 }
 
 .logo_tecs{
-  max-width: 300px;
+  max-width: 500px;
 }
 
 
