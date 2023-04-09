@@ -34,7 +34,7 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
 
 
 .my_pic{
-  max-width: 300px;
+  max-width: 250px;
   margin-top: 4rem;
 }
 
@@ -71,8 +71,8 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
 
 
 .loren_quote{
-    padding: 70px;
-    padding-top: 150px;
+    padding: 150px 70px 70px 20px;
+
     font-size: large;
     min-width:350px;
 }
@@ -100,10 +100,13 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
     }
 
     .loren_quote{
+        padding: 20px;
         display:grid;
         justify-content: center;
-        padding-top: 50px;
+
     }
+
+
 }
 
 @media only screen and (max-width:500px)
@@ -111,7 +114,7 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
 
     .loren_quote{
         padding:0px;
-        padding-top: 50px;
+
         max-width: 300px;
     }
 
