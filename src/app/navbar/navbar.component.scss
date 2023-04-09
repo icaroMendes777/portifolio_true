@@ -139,15 +139,6 @@ nav{
 
 
 
-@media only screen and (max-width:430px){
-    .nav_container{
-
-        font-size: 1.1rem;
-
-    }
-}
-
-
 footer{
   background-color: $background_menu;
   color:white;
@@ -159,9 +150,12 @@ footer{
 }
 
 .footer_wrapp{
-  max-width: 800px;
+  width: 800px;
   padding: 3rem;
   font-weight: 400;
+
+  justify-content: space-evenly;
+  display: flex;
 
   .social_logo{
     width: 2rem;
@@ -175,5 +169,44 @@ footer{
 
     margin: 0.5rem;
 
+    img{
+      max-width: 20px;
+    }
+
+    &:hover{
+      background-color: rgb(244, 248, 4);
+    }
+
   }
 }
+
+.wrap_social_footer{
+    display:inline-flex;
+}
+
+
+
+@media only screen and (max-width:800px){
+  .footer_wrapp{
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .footer_wrapp{
+    width: 400px;
+  }
+}
+
+
+
+@media only screen and (max-width:430px){
+  .nav_container{
+      font-size: 1.1rem;
+  }
+
+  .footer_wrapp{
+    width: 300px;
+  }
+}
+
