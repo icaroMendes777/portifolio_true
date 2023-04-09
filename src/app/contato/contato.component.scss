@@ -1,6 +1,19 @@
 .contato_box{
   border: 1px solid black;
   padding: 3rem;
+  margin: 1rem;
+
+
+  -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.75);
+
+  &:hover{
+
+    -webkit-box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+  }
 }
 
 .email_icon{
