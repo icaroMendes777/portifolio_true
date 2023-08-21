@@ -205,4 +205,12 @@ h3{
     .pic_small_2{
         width: 280px;
     }
+
+}
+
+@media only screen and (max-width:325px){
+  .pic_small,.pic_small_1, .pic_small_2 {
+      max-width: 260px;
+  }
+
 }

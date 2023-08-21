@@ -19,10 +19,10 @@ main{
 
 .intro_box{
   background-color: #f2ea74;
-padding: 1rem;
--webkit-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+  padding: 1rem;
+  -webkit-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
 
   &:hover{
     -webkit-box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
@@ -46,27 +46,27 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
     color: darkblue;
 }
 
-.home_me{
-    width:350px;
-    height:350px;
-    border-radius: 5px;
-    transform: rotate(10deg);
-    margin: 50px;
-    margin-top: 100px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+// .home_me{
+//     width:350px;
+//     height:350px;
+//     border-radius: 5px;
+//     transform: rotate(10deg);
+//     margin: 50px;
+//     margin-top: 100px;
+//     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+//     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+//     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
-    transition: transform 0.5s;
-    &:hover{
-        transform: rotate(9deg);
-        opacity: 0.5;
+//     transition: transform 0.5s;
+//     &:hover{
+//         transform: rotate(9deg);
+//         opacity: 0.5;
 
-        -webkit-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
-        box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
-    }
-}
+//         -webkit-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+//         -moz-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+//         box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+//     }
+// }
 
 
 
@@ -111,6 +111,18 @@ box-shadow: 9px 7px 0px 0px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:500px)
 {
+
+
+
+  .loren_quote{
+    padding: 5px;
+    min-width:300px;
+  }
+
+  .intro_box{
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+  }
 
     .loren_quote{
         padding:0px;

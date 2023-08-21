@@ -14,7 +14,7 @@ main{
 .pre_nav_container{
   height:3.5rem;
   background: #6e07f3;
-  width:100vw;
+  //width:100vw;
 }
 
 
@@ -26,7 +26,7 @@ main{
 
 background: $background_menu;
 //background: linear-gradient(90deg, rgba(6,55,2,1) 0%, rgba(5,120,41,1) 37%, rgba(0,196,67,1) 100%);
-width:100vw;
+//width:100vw;
 
 display: flex;
 justify-content: center;
@@ -164,7 +164,6 @@ footer{
     border-radius: 50%;
     background-color: rgb(244, 248, 4);
 
-
     display: grid;
     align-content: center;
     justify-content: center;
@@ -207,7 +206,7 @@ footer{
 
 @media only screen and (max-width:430px){
   .nav_container{
-      font-size: 1.1rem;
+      font-size: 1rem;
   }
 
   .footer_wrapp{
