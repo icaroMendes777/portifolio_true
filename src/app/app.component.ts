@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-ng-app';
+  title = 'Meu portifólio';
 
 
   constructor(private router: Router) {}
